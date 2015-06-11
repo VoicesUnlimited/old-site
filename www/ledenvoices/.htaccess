@@ -1,0 +1,6 @@
+AuthName "Leden ingang Voices"
+AuthType basic
+AuthUserFile /home/v/o/voicesun/www/ledenvoices/.htpasswd
+<Limit GET POST>
+require valid-user
+</Limit>

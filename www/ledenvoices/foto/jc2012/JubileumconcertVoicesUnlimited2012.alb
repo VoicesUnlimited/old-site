@@ -1,0 +1,51 @@
+<webalbum version="1.8.2">
+  <title>Jubileumconcert Voices Unlimited 2012</title>
+  <description>
+    <line>foto's jubileumconcert</line>
+  </description>
+  <settings>
+    <photosize width="640" height="480">medium</photosize>
+    <thumbsize width="100" height="75">medium</thumbsize>
+    <outputdirectory>C:\Users\loesmarcel\Desktop\JubileumconcertVoicesUnlimited2012\</outputdirectory>
+    <navigateinloop>False</navigateinloop>
+  </settings>
+  <layout>
+    <colourscheme>Default</colourscheme>
+    <pagecolor>8421504</pagecolor>
+    <textcolor>0</textcolor>
+    <linkcolor>16711680</linkcolor>
+    <hotlinkcolor>255</hotlinkcolor>
+    <thumbnailrows>5</thumbnailrows>
+    <thumbnailcols>4</thumbnailcols>
+    <navigationbelowphoto>False</navigationbelowphoto>
+  </layout>
+  <photographs>
+    <photo>
+      <filename>C:\Users\loesmarcel\Pictures\foto's concert 2012\1.JPG</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Pictures\foto's concert 2012\2.jpg</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Pictures\foto's concert 2012\3.jpg</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Pictures\foto's concert 2012\4.jpg</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Pictures\foto's concert 2012\5.jpg</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Pictures\foto's concert 2012\6.jpg</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Pictures\foto's concert 2012\7.JPG</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Pictures\foto's concert 2012\8.jpg</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Pictures\foto's concert 2012\9.JPG</filename>
+    </photo>
+  </photographs>
+</webalbum>

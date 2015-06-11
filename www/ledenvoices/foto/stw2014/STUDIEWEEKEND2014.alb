@@ -1,0 +1,129 @@
+<webalbum version="1.8.2">
+  <title>STUDIEWEEKEND 2014</title>
+  <description>
+    <line>28, 29 en 30 maart 2014</line>
+  </description>
+  <settings>
+    <photosize width="640" height="480">medium</photosize>
+    <thumbsize width="100" height="75">medium</thumbsize>
+    <outputdirectory>C:\Users\loesmarcel\Desktop\STUDIEWEEKEND2014\</outputdirectory>
+    <navigateinloop>False</navigateinloop>
+  </settings>
+  <layout>
+    <colourscheme>Default</colourscheme>
+    <pagecolor>16777215</pagecolor>
+    <textcolor>0</textcolor>
+    <linkcolor>16711680</linkcolor>
+    <hotlinkcolor>255</hotlinkcolor>
+    <thumbnailrows>5</thumbnailrows>
+    <thumbnailcols>4</thumbnailcols>
+    <navigationbelowphoto>False</navigationbelowphoto>
+  </layout>
+  <photographs>
+    <photo>
+      <filename>C:\Users\loesmarcel\Pictures\st2014\1.jpg</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Pictures\st2014\diversen 040.jpg</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Pictures\st2014\diversen 041.jpg</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Pictures\st2014\diversen 042.jpg</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Pictures\st2014\diversen 044.jpg</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Pictures\st2014\diversen 045.jpg</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Pictures\st2014\diversen 046.jpg</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Pictures\st2014\diversen 047.jpg</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Pictures\st2014\diversen 048.jpg</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Pictures\st2014\diversen 049.jpg</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Pictures\st2014\diversen 050.jpg</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Pictures\st2014\diversen 053.jpg</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Pictures\st2014\diversen 054.jpg</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Pictures\st2014\diversen 055.jpg</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Pictures\st2014\diversen 056.jpg</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Pictures\st2014\diversen 057.jpg</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Pictures\st2014\diversen 058.jpg</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Pictures\st2014\diversen 059.jpg</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Pictures\st2014\diversen 060.jpg</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Pictures\st2014\diversen 061.jpg</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Pictures\st2014\diversen 062.jpg</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Pictures\st2014\diversen 063.jpg</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Pictures\st2014\diversen 064.jpg</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Pictures\st2014\diversen 065.jpg</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Pictures\st2014\diversen 066.jpg</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Pictures\st2014\diversen 067.jpg</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Pictures\st2014\diversen 068.jpg</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Pictures\st2014\diversen 069.jpg</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Pictures\st2014\diversen 070.jpg</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Pictures\st2014\diversen 071.jpg</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Pictures\st2014\diversen 072.jpg</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Pictures\st2014\diversen 073.jpg</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Pictures\st2014\diversen 074.jpg</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Pictures\st2014\diversen 075.jpg</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Pictures\st2014\diversen 076.jpg</filename>
+    </photo>
+  </photographs>
+</webalbum>

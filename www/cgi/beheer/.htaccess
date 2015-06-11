@@ -1,0 +1,6 @@
+AuthName "Leden manager"
+AuthType basic
+AuthUserFile /home/v/o/voicesun/www/cgi/beheer/.htpasswd
+<Limit GET POST>
+require valid-user
+</Limit>

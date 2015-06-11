@@ -1,0 +1,115 @@
+<webalbum version="1.8.2">
+  <title>Sandwichconcert Nutshuis</title>
+  <description>
+    <line>Tussenconcert.</line>
+    <line> </line>
+  </description>
+  <settings>
+    <photosize width="640" height="480">medium</photosize>
+    <thumbsize width="100" height="75">medium</thumbsize>
+    <outputdirectory>C:\Users\loesmarcel\Desktop\SandwichconcertNutshuis\</outputdirectory>
+    <navigateinloop>False</navigateinloop>
+  </settings>
+  <layout>
+    <colourscheme>Default</colourscheme>
+    <pagecolor>12632256</pagecolor>
+    <textcolor>0</textcolor>
+    <linkcolor>16711680</linkcolor>
+    <hotlinkcolor>255</hotlinkcolor>
+    <thumbnailrows>5</thumbnailrows>
+    <thumbnailcols>4</thumbnailcols>
+    <navigationbelowphoto>False</navigationbelowphoto>
+  </layout>
+  <photographs>
+    <photo>
+      <filename>C:\Users\loesmarcel\Documents\Culturalis Koorsandwich\1.JPG</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Documents\Culturalis Koorsandwich\2.JPG</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Documents\Culturalis Koorsandwich\3.JPG</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Documents\Culturalis Koorsandwich\4.JPG</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Documents\Culturalis Koorsandwich\5.JPG</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Documents\Culturalis Koorsandwich\6.JPG</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Documents\Culturalis Koorsandwich\7.JPG</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Documents\Culturalis Koorsandwich\8.JPG</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Documents\Culturalis Koorsandwich\9.JPG</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Documents\Culturalis Koorsandwich\10.JPG</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Documents\Culturalis Koorsandwich\11.JPG</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Documents\Culturalis Koorsandwich\12.JPG</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Documents\Culturalis Koorsandwich\13.JPG</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Documents\Culturalis Koorsandwich\14.JPG</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Documents\Culturalis Koorsandwich\15.JPG</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Documents\Culturalis Koorsandwich\16.JPG</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Documents\Culturalis Koorsandwich\17.JPG</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Documents\Culturalis Koorsandwich\18.JPG</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Documents\Culturalis Koorsandwich\19.JPG</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Documents\Culturalis Koorsandwich\20.JPG</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Documents\Culturalis Koorsandwich\21.JPG</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Documents\Culturalis Koorsandwich\22.JPG</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Documents\Culturalis Koorsandwich\23.JPG</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Documents\Culturalis Koorsandwich\24.JPG</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Documents\Culturalis Koorsandwich\26.JPG</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Documents\Culturalis Koorsandwich\27.JPG</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Documents\Culturalis Koorsandwich\28.JPG</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Documents\Culturalis Koorsandwich\29.JPG</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Documents\Culturalis Koorsandwich\30.JPG</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Documents\Culturalis Koorsandwich\31.JPG</filename>
+    </photo>
+  </photographs>
+</webalbum>

@@ -1,0 +1,32 @@
+<webalbum version="1.8.2">
+  <title>groepsfoto,s</title>
+  <description>
+    <line>Various photographs that I'd like to share on the Web.</line>
+  </description>
+  <settings>
+    <photosize width="640" height="480">medium</photosize>
+    <thumbsize width="100" height="75">medium</thumbsize>
+    <outputdirectory>C:\Users\marcel\Desktop\groepsfotos\</outputdirectory>
+    <navigateinloop>False</navigateinloop>
+  </settings>
+  <layout>
+    <colourscheme>Default</colourscheme>
+    <pagecolor>16777215</pagecolor>
+    <textcolor>0</textcolor>
+    <linkcolor>16711680</linkcolor>
+    <hotlinkcolor>255</hotlinkcolor>
+    <thumbnailrows>5</thumbnailrows>
+    <thumbnailcols>4</thumbnailcols>
+    <navigationbelowphoto>False</navigationbelowphoto>
+  </layout>
+  <photographs>
+    <photo>
+      <title>lekkerbekjes.....</title>
+      <filename>C:\Users\marcel\Pictures\groep_4kant_vervormd_klein.jpg</filename>
+    </photo>
+    <photo>
+      <title>lachebekjes</title>
+      <filename>C:\Users\marcel\Pictures\groepsfoto_klein.jpg</filename>
+    </photo>
+  </photographs>
+</webalbum>

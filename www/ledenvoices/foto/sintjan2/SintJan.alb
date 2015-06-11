@@ -1,0 +1,75 @@
+<webalbum version="1.8.2">
+  <title>Sint Jan</title>
+  <description>
+    <line>Sinterklaas bezoekt Voices Unlimited</line>
+  </description>
+  <settings>
+    <photosize width="640" height="480">medium</photosize>
+    <thumbsize width="100" height="75">medium</thumbsize>
+    <outputdirectory>C:\Users\loesmarcel\Desktop\SintJan\</outputdirectory>
+    <navigateinloop>False</navigateinloop>
+  </settings>
+  <layout>
+    <colourscheme>Default</colourscheme>
+    <pagecolor>15780518</pagecolor>
+    <textcolor>0</textcolor>
+    <linkcolor>16711680</linkcolor>
+    <hotlinkcolor>255</hotlinkcolor>
+    <thumbnailrows>5</thumbnailrows>
+    <thumbnailcols>4</thumbnailcols>
+    <navigationbelowphoto>False</navigationbelowphoto>
+  </layout>
+  <photographs>
+    <photo>
+      <filename>C:\Users\loesmarcel\Documents\sint jan 2\o.jpg</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Documents\sint jan 2\1.JPG</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Documents\sint jan 2\2.JPG</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Documents\sint jan 2\3.JPG</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Documents\sint jan 2\4.JPG</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Documents\sint jan 2\5.JPG</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Documents\sint jan 2\7.JPG</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Documents\sint jan 2\9.JPG</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Documents\sint jan 2\10.JPG</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Documents\sint jan 2\11.JPG</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Documents\sint jan 2\12.JPG</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Documents\sint jan 2\13.JPG</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Documents\sint jan 2\14.JPG</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Documents\sint jan 2\15.JPG</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Documents\sint jan 2\16.JPG</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Documents\sint jan 2\17.JPG</filename>
+    </photo>
+    <photo>
+      <filename>C:\Users\loesmarcel\Documents\sint jan 2\18.JPG</filename>
+    </photo>
+  </photographs>
+</webalbum>

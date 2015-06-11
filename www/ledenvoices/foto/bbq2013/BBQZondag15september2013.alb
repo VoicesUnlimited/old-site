@@ -1,0 +1,61 @@
+<webalbum version="1.8.2">
+  <title>BBQ Zondag 15 september 2013</title>
+  <settings>
+    <photosize width="640" height="480">medium</photosize>
+    <thumbsize width="100" height="75">medium</thumbsize>
+    <outputdirectory>C:\Users\loesmarcel\Desktop\BBQZondag15september2013\</outputdirectory>
+    <navigateinloop>False</navigateinloop>
+  </settings>
+  <layout>
+    <colourscheme>Default</colourscheme>
+    <pagecolor>15780518</pagecolor>
+    <textcolor>255</textcolor>
+    <linkcolor>16711680</linkcolor>
+    <hotlinkcolor>255</hotlinkcolor>
+    <thumbnailrows>5</thumbnailrows>
+    <thumbnailcols>4</thumbnailcols>
+    <navigationbelowphoto>False</navigationbelowphoto>
+  </layout>
+  <photographs>
+    <photo>
+      <title>Bidden voor mooi weer bij de bbq</title>
+      <filename>C:\Users\loesmarcel\Pictures\foto's Elles bbq\IMG-20130916-WA0000.jpg</filename>
+    </photo>
+    <photo>
+      <title>Geef de appelmoes even door!</title>
+      <filename>C:\Users\loesmarcel\Pictures\foto's Elles bbq\IMG-20130916-WA0001.jpg</filename>
+    </photo>
+    <photo>
+      <title>Even lachen naar het vogeltje!</title>
+      <filename>C:\Users\loesmarcel\Pictures\foto's Elles bbq\IMG-20130916-WA0002.jpg</filename>
+    </photo>
+    <photo>
+      <title>Ik zie, ik zie wat jij niet ziet.</title>
+      <filename>C:\Users\loesmarcel\Pictures\foto's Elles bbq\IMG-20130916-WA0003.jpg</filename>
+    </photo>
+    <photo>
+      <title>Van wie is deze hand?</title>
+      <filename>C:\Users\loesmarcel\Pictures\foto's Elles bbq\IMG-20130916-WA0004.jpg</filename>
+    </photo>
+    <photo>
+      <title>En gelachen dat we hebben!</title>
+      <filename>C:\Users\loesmarcel\Pictures\foto's Elles bbq\IMG-20130916-WA0005.jpg</filename>
+    </photo>
+    <photo>
+      <title>Moet je eens kijken wat ik van mijn man gekregen heb!</title>
+      <filename>C:\Users\loesmarcel\Pictures\foto's Elles bbq\IMG-20130916-WA0006.jpg</filename>
+    </photo>
+    <photo>
+      <title>Zie ik daar nou twee beren broodjes smeren?</title>
+      <filename>C:\Users\loesmarcel\Pictures\foto's Elles bbq\IMG-20130916-WA0007.jpg</filename>
+    </photo>
+    <photo>
+      <title>Jezus, wat zijn die druiven zuur!</title>
+      <filename>C:\Users\loesmarcel\Pictures\foto's Elles bbq\IMG-20130916-WA0008.jpg</filename>
+    </photo>
+    <photo>
+      <title>Ik stond vanmorgen bij de bushalte...................</title>
+      <filename>C:\Users\loesmarcel\Pictures\foto's Elles bbq\IMG-20130916-WA0009.jpg</filename>
+    </photo>
+  </photographs>
+</webalbum>
