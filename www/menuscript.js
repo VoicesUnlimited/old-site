@@ -46,11 +46,9 @@ subInfo[1][3] = new Array("Kom ook bij ons zingen ","wordooklid.htm","inhoud");
 
 subInfo[2][1] = new Array("Kerstconcert","agenda.htm","inhoud");
 
-subInfo[2][2] = new Array("Themaconcert","jaarcon2009.htm","inhoud");
+subInfo[2][2] = new Array("Kaarten bestellen ","kaarten.htm","inhoud");
 
-subInfo[2][3] = new Array("Kaarten bestellen ","kaarten.htm","inhoud");
-
-subInfo[2][4] = new Array("Eerdere concerten","jaarcon2009.htm","inhoud");
+subInfo[2][3] = new Array("Eerdere concerten","jaarcon2009.htm","inhoud");
 
 
 
