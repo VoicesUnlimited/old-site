@@ -31,7 +31,6 @@ subInfo[4][1] = new Array("Activiteiten","activiteit.htm","inhoudleden");
 subInfo[4][2] = new Array("Smoelenboek","smoelenboek.htm","inhoudleden");
 subInfo[4][3] = new Array("Verjaardagen","verjaardag.htm","inhoudleden");
 subInfo[4][4] = new Array("Commissies","informatie.htm","inhoudleden");
-//subInfo[4][5] = new Array("PoLLepeLL","pollepell.html","inhoudleden");
 
 
 //*** SET SUB MENU POSITION ( RELATIVE TO BUTTON ) ***//
