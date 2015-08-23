@@ -31,7 +31,7 @@ subInfo = [
     [
         [],
         ["Kerstconcert","agenda.htm","inhoud"],
-        ["Kaarten bestellen ","kaarten.htm","inhoud"],
+        //["Kaarten bestellen ","kaarten.htm","inhoud"],
         ["Eerdere concerten","jaarcon2009.htm","inhoud"]
     ],
     [
