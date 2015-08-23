@@ -6,79 +6,53 @@ var buttonFolder = "buttons/";
 
 /*** SET BUTTONS' FILENAMES HERE ***/
 
-upSources = new Array("button1up.png","button2up.png","button3up.png","button4up.png","button5up.png","button6up.png");
+upSources = ["button1up.png","button2up.png","button3up.png","button4up.png","button5up.png","button6up.png"];
 
 
 
-overSources = new Array("button1over.png","button2over.png","button3over.png","button4over.png","button5over.png","button6over.png");
+overSources = ["button1over.png","button2over.png","button3over.png","button4over.png","button5over.png","button6over.png"];
 
 
 
-// SUB MENUS DECLARATION, YOU DONT NEED TO EDIT THIS
+// SUB MENUS DECLARATION, Set sub menus text links and targets here
 
-subInfo = new Array();
-
-subInfo[1] = new Array();
-
-subInfo[2] = new Array();
-
-subInfo[3] = new Array();
-
-subInfo[4] = new Array();
-
-subInfo[5] = new Array();
-
-subInfo[6] = new Array();
-
-
-
-
-
-//*** SET SUB MENUS TEXT LINKS AND TARGETS HERE ***//
-
-subInfo[1][1] = new Array("Algemeen ","algemeen.htm","inhoud");
-
-subInfo[1][2] = new Array("Nieuws ","nieuws.htm","inhoud");
-
-subInfo[1][3] = new Array("Kom ook bij ons zingen ","wordooklid.htm","inhoud");
-
-
-
-subInfo[2][1] = new Array("Kerstconcert","agenda.htm","inhoud");
-
-subInfo[2][2] = new Array("Kaarten bestellen ","kaarten.htm","inhoud");
-
-subInfo[2][3] = new Array("Eerdere concerten","jaarcon2009.htm","inhoud");
-
-
-
-subInfo[3][1] = new Array("Wie zijn wij","wiezijnwij.htm","inhoud");
-
-subInfo[3][2] = new Array("Dirigent ","dirigent.htm","inhoud");
-
-subInfo[3][3] = new Array("Pianiste ","pianiste.htm","inhoud");
-
-subInfo[3][4] = new Array("Repertoire ","repertoire.htm","inhoud");
-
-subInfo[3][5] = new Array("Word vriend ","vriend.htm","inhoud");
-
-
-subInfo[4][1] = new Array("Sponsors ","sponsors.htm","inhoud");
-
-subInfo[4][2] = new Array("Activiteiten ","activiteiten.htm","inhoud");
-
-subInfo[4][3] = new Array("Geschiedenis ","geschiedenis.htm","inhoud");
-
-subInfo[4][4] = new Array("Contact ","contact.htm","inhoud");
-
-subInfo[4][5] = new Array("Links ","links.htm","inhoud");
-
-
-
-
-
-
-
+subInfo = [
+    // Whoever wrote this clearly wasn't comfortable with 0-based indexing.
+    // And why the hell are the second and third menu items in reverse order?
+    // To do: Modify this so that it uses 0-based indexing.
+    // To do: swap subInfo[2] and subInfo[3] (should be 1 and 2, respectively)
+    [],
+    [
+        [],
+        ["Algemeen ","algemeen.htm","inhoud"],
+        ["Nieuws ","nieuws.htm","inhoud"],
+        ["Kom ook bij ons zingen ","wordooklid.htm","inhoud"]
+    ],
+    [
+        [],
+        ["Kerstconcert","agenda.htm","inhoud"],
+        //["Kaarten bestellen ","kaarten.htm","inhoud"],
+        ["Eerdere concerten","jaarcon2009.htm","inhoud"]
+    ],
+    [
+        [],
+        ["Wie zijn wij","wiezijnwij.htm","inhoud"],
+        ["Dirigent ","dirigent.htm","inhoud"],
+        ["Pianiste ","pianiste.htm","inhoud"],
+        ["Repertoire ","repertoire.htm","inhoud"],
+        ["Word vriend ","vriend.htm","inhoud"]
+    ],
+    [
+        [],
+        ["Sponsors ","sponsors.htm","inhoud"],
+        ["Activiteiten ","activiteiten.htm","inhoud"],
+        ["Geschiedenis ","geschiedenis.htm","inhoud"],
+        ["Contact ","contact.htm","inhoud"],
+        ["Links ","links.htm","inhoud"]
+    ],
+    [],
+    []
+]
 
 
 //*** SET SUB MENU POSITION ( RELATIVE TO BUTTON ) ***//
