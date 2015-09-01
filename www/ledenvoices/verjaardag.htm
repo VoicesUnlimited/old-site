@@ -20,17 +20,16 @@
 
                         var no = 12; // number of hearts
                         var speed = 30; // smaller number moves the hearts faster
-                        var heart = "gifs/zilver.gif";
+                        var heart = "gifs/home.gif";
                         var flag;
-                        var ie4up = (document.all) ? 1 : 0;
 
                         var dx, xp, yp;    // coordinate and position variables
                         var am, stx, sty;  // amplitude and step variables
                         var i, doc_width = 800, doc_height = 600;
-                        if (ie4up) {
-                            doc_width = document.body.clientWidth;
-                            doc_height = document.body.clientHeight;
-                        }
+
+                        doc_width = document.body.clientWidth;
+                        doc_height = document.body.clientHeight;
+
                         dx = new Array();
                         xp = new Array();
                         yp = new Array();
@@ -39,6 +38,7 @@
                         stx = new Array();
                         sty = new Array();
                         flag = new Array();
+
                         for (i = 0; i < no; ++i) {
                             dx[i] = 0;                        // set coordinate variables
                             xp[i] = Math.random() * (doc_width - 30) + 10;  // set position variables
@@ -48,21 +48,12 @@
                             stx[i] = 0.02 + Math.random() / 10; // set step variables
                             sty[i] = 0.7 + Math.random();     // set step variables
                             flag[i] = (Math.random() > 0.5) ? 1 : 0;
-                            if (ie4up) {
-                                if (i == 0) {
-                                    document.write("<div id=\"dot" + i + "\" style=\"POSITION: ");
-                                    document.write("absolute; Z-INDEX: " + i + "; VISIBILITY: ");
-                                    document.write("visible; TOP: 15px; LEFT: 15px;\"><img src=\"");
-                                    document.write(heart + "\" border=\"0\"></div>");
-                                } else {
-                                    document.write("<div id=\"dot" + i + "\" style=\"POSITION: ");
-                                    document.write("absolute; Z-INDEX: " + i + "; VISIBILITY: ");
-                                    document.write("visible; TOP: 15px; LEFT: 15px;\"><img src=\"");
-                                    document.write(heart + "\" border=\"0\"></div>");
-                                }
-                            }
+
+                            var element='<div id="dot' + i + '" style="POSITION: absolute; Z-INDEX: ' + i + '; VISIBILITY: visible; TOP: 15px; LEFT: 15px;">' +
+                                    '<img src="' + heart + '"/></div>';
+                            document.write(element);
                         }
-                        
+
                         function snowIE() {  // IE main animation function
                             for (i = 0; i < no; ++i) {  // iterate for every dot
                                 if (yp[i] > doc_height - 50) {
@@ -85,15 +76,15 @@
                                     flag[i] = !flag[i];
                                 }
 
-                                document.all["dot" + i].style.pixelTop = yp[i] + amy[i] * (Math.abs(Math.sin(dx[i]) + dx[i]));
-                                document.all["dot" + i].style.pixelLeft = xp[i] + amx[i] * dx[i];
+                                document.getElementById("dot" + i).style.top = yp[i] + amy[i] * (Math.abs(Math.sin(dx[i]) + dx[i]));
+                                document.getElementById("dot" + i).style.left = xp[i] + amx[i] * dx[i];
                             }
-                            setTimeout("snowIE()", speed);
+                            setTimeout(snowIE, speed);
                         }
 
-                        if (ie4up) {
-                            snowIE();
-                        }
+
+                        snowIE();
+
                         // End -->
                     </script>
 
