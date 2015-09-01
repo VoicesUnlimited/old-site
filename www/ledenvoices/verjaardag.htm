@@ -54,7 +54,7 @@
                             document.write(element);
                         }
 
-                        function snowIE() {  // IE main animation function
+                        function snowHearts() {
                             for (i = 0; i < no; ++i) {  // iterate for every dot
                                 if (yp[i] > doc_height - 50) {
                                     xp[i] = 10 + Math.random() * (doc_width - amx[i] - 30);
@@ -79,11 +79,11 @@
                                 document.getElementById("dot" + i).style.top = yp[i] + amy[i] * (Math.abs(Math.sin(dx[i]) + dx[i]));
                                 document.getElementById("dot" + i).style.left = xp[i] + amx[i] * dx[i];
                             }
-                            setTimeout(snowIE, speed);
+                            setTimeout(snowHearts, speed);
                         }
 
 
-                        snowIE();
+                        snowHearts();
 
                         // End -->
                     </script>
