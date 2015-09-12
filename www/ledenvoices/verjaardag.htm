@@ -1,345 +1,121 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
-<title>www.voicesunlimited.nl</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-<META NAME="Generator" CONTENT="HTMLed32 Version 2.0d">
-<META NAME="Keywords" CONTENT="voices unlimited, haags jongeren koor">
-<META NAME="Description" CONTENT="voicesunlimited">
-<META NAME="Author" CONTENT="Karin Evers">
+    <title>www.voicesunlimited.nl</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <META NAME="Generator" CONTENT="HTMLed32 Version 2.0d">
+    <META NAME="Keywords" CONTENT="voices unlimited, haags jongeren koor">
+    <META NAME="Description" CONTENT="voicesunlimited">
+    <META NAME="Author" CONTENT="Karin Evers">
 </head>
 
 <body bgcolor="#000099" link="#0000FF" alink="#0000FF" vlink="#0000FF">
-<table width="90%" border="0" align="center" cellpadding="0" cellspacing="0" background="logobanner/voiceslogo1.jpg" >
-<tr>
-<td>
-<center><br>
-<img src="logobanner/verjaardag.gif" width="450" height="65"><br><br>
-<font color="#000099" size="-1" face="Verdana, Arial, Helvetica, sans-serif"> 
-<SCRIPT LANGUAGE="JavaScript1.2">
+<table width="90%" border="0" align="center" cellpadding="0" cellspacing="0" background="logobanner/voiceslogo1.jpg">
+    <tr>
+        <td>
+            <center><br>
+                <img src="logobanner/verjaardag.gif" width="450" height="65"><br><br>
+                <font color="#000099" size="-1" face="Verdana, Arial, Helvetica, sans-serif">
+                    <SCRIPT type="application/javascript">
 
-var no = 12; // number of hearts
-var speed = 30; // smaller number moves the hearts faster
-var heart = "gifs/heart.gif";
-var flag;
-var ns4up = (document.layers) ? 1 : 0;  // browser sniffer
-var ie4up = (document.all) ? 1 : 0;
+                        var no = 12; // number of hearts
+                        var speed = 30; // smaller number moves the hearts faster
+                        var heart = "gifs/heart.gif";
+                        var flag;
 
-var dx, xp, yp;    // coordinate and position variables
-var am, stx, sty;  // amplitude and step variables
-var i, doc_width = 800, doc_height = 600;
-if (ns4up) {
-doc_width = self.innerWidth;
-doc_height = self.innerHeight;
-} else if (ie4up) {
-doc_width = document.body.clientWidth;
-doc_height = document.body.clientHeight;
-}
-dx = new Array();
-xp = new Array();
-yp = new Array();
-amx = new Array();
-amy = new Array();
-stx = new Array();
-sty = new Array();
-flag = new Array();
-for (i = 0; i < no; ++ i) {
-dx[i] = 0;                        // set coordinate variables
-xp[i] = Math.random()*(doc_width-30)+10;  // set position variables
-yp[i] = Math.random()*doc_height;
-amy[i] = 12+ Math.random()*20;         // set amplitude variables
-amx[i] = 10+ Math.random()*40;
-stx[i] = 0.02 + Math.random()/10; // set step variables
-sty[i] = 0.7 + Math.random();     // set step variables
-flag[i] = (Math.random()>0.5)?1:0;
-if (ns4up) {                      // set layers
-if (i == 0) {
-document.write("<layer name=\"dot"+ i +"\" left=\"15\" ");
-document.write("top=\"15\" visibility=\"show\"><img src=\"");
-document.write(heart+ "\" border=\"0\"></layer>");
-} else {
-document.write("<layer name=\"dot"+ i +"\" left=\"15\" ");
-document.write("top=\"15\" visibility=\"show\"><img src=\"");
-document.write(heart+ "\" border=\"0\"></layer>");
-}
-} else
-if (ie4up) {
-if (i == 0) {
-document.write("<div id=\"dot"+ i +"\" style=\"POSITION: ");
-document.write("absolute; Z-INDEX: "+ i +"; VISIBILITY: ");
-document.write("visible; TOP: 15px; LEFT: 15px;\"><img src=\"");
-document.write(heart+ "\" border=\"0\"></div>");
-} else {
-document.write("<div id=\"dot"+ i +"\" style=\"POSITION: ");
-document.write("absolute; Z-INDEX: "+ i +"; VISIBILITY: ");
-document.write("visible; TOP: 15px; LEFT: 15px;\"><img src=\"");
-document.write(heart+ "\" border=\"0\"></div>");
-}
-}
-}
+                        var dx, xp, yp;    // coordinate and position variables
+                        var am, stx, sty;  // amplitude and step variables
+                        var i, doc_width = 800, doc_height = 600;
 
-function snowNS() {  // Netscape main animation function
-for (i = 0; i < no; ++ i) {  // iterate for every dot
-if (yp[i] > doc_height-50) {
-xp[i] = 10+ Math.random()*(doc_width-amx[i]-30);
-yp[i] = 0;
-flag[i]=(Math.random()<0.5)?1:0;
-stx[i] = 0.02 + Math.random()/10;
-sty[i] = 0.7 + Math.random();
-doc_width = self.innerWidth;
-doc_height = self.innerHeight;
-}
-if (flag[i])
-dx[i] += stx[i];
-else
-dx[i] -= stx[i];
-if (Math.abs(dx[i]) > Math.PI) {
-yp[i]+=Math.abs(amy[i]*dx[i]);
-xp[i]+=amx[i]*dx[i];
-dx[i]=0;
-flag[i]=!flag[i];
-}
-document.layers["dot"+i].top = yp[i] + amy[i]*(Math.abs(Math.sin(dx[i])+dx[i]));
-document.layers["dot"+i].left = xp[i] + amx[i]*dx[i];
+                        doc_width = document.body.clientWidth;
+                        doc_height = document.body.clientHeight;
 
-}
-setTimeout("snowNS()", speed);
-}
+                        dx = new Array();
+                        xp = new Array();
+                        yp = new Array();
+                        amx = new Array();
+                        amy = new Array();
+                        stx = new Array();
+                        sty = new Array();
+                        flag = new Array();
 
-function snowIE() {  // IE main animation function
-for (i = 0; i < no; ++ i) {  // iterate for every dot
-if (yp[i] > doc_height-50) {
-xp[i] = 10+ Math.random()*(doc_width-amx[i]-30);
-yp[i] = 0;
-stx[i] = 0.02 + Math.random()/10;
-sty[i] = 0.7 + Math.random();
-flag[i]=(Math.random()<0.5)?1:0;
-doc_width = document.body.clientWidth;
-doc_height = document.body.clientHeight;
-}
-if (flag[i])
-dx[i] += stx[i];
-else
-dx[i] -= stx[i];
-if (Math.abs(dx[i]) > Math.PI) {
-yp[i]+=Math.abs(amy[i]*dx[i]);
-xp[i]+=amx[i]*dx[i];
-dx[i]=0;
-flag[i]=!flag[i];
-}
+                        for (i = 0; i < no; ++i) {
+                            dx[i] = 0;                        // set coordinate variables
+                            xp[i] = Math.random() * (doc_width - 30) + 10;  // set position variables
+                            yp[i] = Math.random() * doc_height;
+                            amy[i] = 12 + Math.random() * 20;         // set amplitude variables
+                            amx[i] = 10 + Math.random() * 40;
+                            stx[i] = 0.02 + Math.random() / 10; // set step variables
+                            sty[i] = 0.7 + Math.random();     // set step variables
+                            flag[i] = (Math.random() > 0.5) ? 1 : 0;
 
-document.all["dot"+i].style.pixelTop = yp[i] + amy[i]*(Math.abs(Math.sin(dx[i])+dx[i]));
-document.all["dot"+i].style.pixelLeft = xp[i] + amx[i]*dx[i];
-}
-setTimeout("snowIE()", speed);
-}
+                            var element='<div id="dot' + i + '" style="POSITION: absolute; Z-INDEX: ' + i + '; VISIBILITY: visible; TOP: 15px; LEFT: 15px;">' +
+                                    '<img src="' + heart + '"/></div>';
+                            document.write(element);
+                        }
 
-if (ns4up) {
-snowNS();
-} else if (ie4up) {
-snowIE();
-}
-// End -->
-</script>
+                        function snowHearts() {
+                            for (i = 0; i < no; ++i) {  // iterate for every dot
+                                if (yp[i] > doc_height - 50) {
+                                    xp[i] = 10 + Math.random() * (doc_width - amx[i] - 30);
+                                    yp[i] = 0;
+                                    stx[i] = 0.02 + Math.random() / 10;
+                                    sty[i] = 0.7 + Math.random();
+                                    flag[i] = (Math.random() < 0.5) ? 1 : 0;
+                                    doc_width = document.body.clientWidth;
+                                    doc_height = document.body.clientHeight;
+                                }
+                                if (flag[i])
+                                    dx[i] += stx[i];
+                                else
+                                    dx[i] -= stx[i];
+                                if (Math.abs(dx[i]) > Math.PI) {
+                                    yp[i] += Math.abs(amy[i] * dx[i]);
+                                    xp[i] += amx[i] * dx[i];
+                                    dx[i] = 0;
+                                    flag[i] = !flag[i];
+                                }
 
-<h3>Wie zijn er in januari jarig??</h3>
-11-01&nbsp;&nbsp;Annabel Trouwborst<br/>
-12-01&nbsp;&nbsp;Anke Smeets<BR>
-12-01&nbsp;&nbsp;Oscar van der Meer<BR>
-21-01&nbsp;&nbsp;Jos van den Boom<BR>
-29-01&nbsp;&nbsp;David van Lith<BR><BR>
-
-<h3>Wie zijn er in februari jarig??</h3>
-04-02&nbsp;&nbsp;Tatiana (Tanja) Kiourou<BR>
-05-02&nbsp;&nbsp;Gerard Benders<BR>
-16-02&nbsp;&nbsp;Jacqueline Verhagen<BR>
-18-02&nbsp;&nbsp;Astrid Rouffaer<BR>
-20-02&nbsp;&nbsp;Sieward Nijhuis<BR>
-23-02&nbsp;&nbsp;Marjolein Taal<BR>
-26-02&nbsp;&nbsp;Aurelia Orlowski<br>
-29-02&nbsp;&nbsp;Joost Haenen<BR><br>
-
-<h3>Wie zijn er in maart jarig??</h3>
-05-03&nbsp;&nbsp;Branka Tomic<BR>
-07-03&nbsp;&nbsp;Marjan Soppe<BR>
-13-03&nbsp;&nbsp;Jurriaan van der Zee<BR>
-14-03&nbsp;&nbsp;Suzanne Castelein<BR>
-17-03&nbsp;&nbsp;Loes Fortman<BR>
-29-03&nbsp;&nbsp;Rita Slootweg<BR>
-29-03&nbsp;&nbsp;Andrea Tetenburg<br>
-31-03&nbsp;&nbsp;Mariëlla Kuilman<BR><br>
-
-<h3>Wie zijn er in april jarig??</h3>
-07-04&nbsp;&nbsp;Monique van Gils<BR>
-09-04&nbsp;&nbsp;Sandra Lokkerbol<BR>
-17-04&nbsp;&nbsp;Beppie van den Berg<BR>
-18-04&nbsp;&nbsp;Paul Zuijdwijk<BR>
-23-04&nbsp;&nbsp;Jan Weilers<BR>
-25-04&nbsp;&nbsp;Karin Evers<BR>
-29-04&nbsp;&nbsp;Ineke Hertgers<BR><BR>
-
-<h3>Wie zijn er in mei jarig??</h3>
-10-05&nbsp;&nbsp;Lea van der Hert<BR>
-17-05&nbsp;&nbsp;Bob van Ravesteijn<BR>
-21-05&nbsp;&nbsp;Ad Verschoor<BR>
-30-05&nbsp;&nbsp;Elly van Wijk<BR>
-
-<h3>Wie zijn er in juni jarig??</h3>
-07-06&nbsp;&nbsp;Mirjam Grool<BR>
-13-06&nbsp;&nbsp;Leon Huisman<BR/>
-18-06&nbsp;&nbsp;Janneke v.d. Boom<BR>
-19-06&nbsp;&nbsp;Jan v.d. Poll<BR>
-26-06&nbsp;&nbsp;Trude Gentenaar<BR>
-29-06&nbsp;&nbsp;Carla Sizoo<BR>
-30-06&nbsp;&nbsp;Anna Hogervorst<BR>
-
-<h3>Wie zijn er in juli jarig??</h3>
-1-07&nbsp;&nbsp;Kary de Jong<BR>
-2-07&nbsp;&nbsp;Sandra Laterveer<BR>
-13-07&nbsp;&nbsp;Ian Eisenberg<br />
-20-07&nbsp;&nbsp;Nelly Hoffmann<BR>
-29-07&nbsp;&nbsp;Barbara Mindé<BR>
-
-<h3>Wie zijn er in augustus jarig??</h3>
-06-08&nbsp;&nbsp;Marjolijn Hillen<BR>
-09-08&nbsp;&nbsp;Elles Vooijs<BR>
-10-08&nbsp;&nbsp;Marian Hartzema<br/>
-10-08&nbsp;&nbsp;Catelijn Nicolaas<br/>
-12-08&nbsp;&nbsp;Nicole Romijn<BR>
-12-08&nbsp;&nbsp;Maaike Kemper<BR>
-29-08&nbsp;&nbsp;Ton van de Langkruis<BR><BR>
+                                document.getElementById("dot" + i).style.top = yp[i] + amy[i] * (Math.abs(Math.sin(dx[i]) + dx[i]));
+                                document.getElementById("dot" + i).style.left = xp[i] + amx[i] * dx[i];
+                            }
+                            setTimeout(snowHearts, speed);
+                        }
 
 
-<h3>Wie zijn er in september jarig??</h3>
-11-09&nbsp;&nbsp;Shirley Saris<BR>
-13-09&nbsp;&nbsp;Voices Unlimited<BR>
-28-09&nbsp;&nbsp;Mariëtte van Haarlem<BR><BR>
- 
-<h3>Wie zijn er in oktober jarig??</h3>
-08-10&nbsp;&nbsp;Lenie de Niet<BR>
-09-10&nbsp;&nbsp;Arnold van Schijndel<BR>
-11-10&nbsp;&nbsp;Maggie Halma<BR>
-14-10&nbsp;&nbsp;Maaike Lommelaars<BR>
-27-10&nbsp;&nbsp;Anita Rebel<BR>
-28-10&nbsp;&nbsp;Henk de Leest<BR>
-29-10&nbsp;&nbsp;Wim Biesheuvel<BR><BR>
+                        snowHearts();
 
-<h3>Wie zijn er in november jarig??</h3>
-08-11&nbsp;&nbsp;Chiara Honsbeek-de Goede<BR>
-15-11&nbsp;&nbsp;Karla Cozijnsen<BR><BR>
+                        // End -->
+                    </script>
 
-<h3>Wie zijn er in december jarig??</h3>
-05-12&nbsp;&nbsp;Sandra Hoogweg<BR>
-25-12&nbsp;&nbsp;Marijke van Winden<BR><BR>
+                    <script type="application/javascript" src="verjaardag.js"></script>
 
+                    <script type="application/javascript">
 
+                        for(var maand=1; maand<=12; maand++) {
 
+                            document.write('<h3>Wie zijn er in ' + verjardagen[maand].naam + ' jarig?</h3>');
+                            // there are probably more efficient ways to do this.
+                            for(var date=1; date<=31; date++) {
 
-<img src="gifs/mokkataart.jpg" width="188" height="159"><br><br>
-</font>
-</td>
-</tr>
+                                if(verjardagen[maand][date]) {
+                                    for(var jjob in verjardagen[maand][date]) {
+                                        document.write(date + '-' + maand + '&nbsp;&nbsp;' + verjardagen[maand][date][jjob] + '<br/>');
+                                    }
+
+                                }
+                            }
+
+                            document.write('<br/><br/>');
+                        }
+
+                    </script>
+
+                    <img src="gifs/mokkataart.jpg" width="188" height="159"><br><br>
+                </font>
+            </center>
+        </td>
+    </tr>
 </table>
 </body>
 </html>
-
-<!--
-
-<h3>Wie zijn er in januari jarig??</h3>
-12-01&nbsp;&nbsp;Anke Smeets<BR>
-12-01&nbsp;&nbsp;Oscar van der Meer<BR>
-21-01&nbsp;&nbsp;Jos van den Boom<BR>
-27-01&nbsp;&nbsp;Peter Kelderman<BR>
-29-01&nbsp;&nbsp;David van Lith<BR><BR>
-
-<h3>Wie zijn er in februari jarig??</h3>
-04-02&nbsp;&nbsp;Tatiana (Tanja) Kiourou<BR>
-05-02&nbsp;&nbsp;Gerard Benders<BR>
-16-02&nbsp;&nbsp;Jacqueline Verhagen<BR>
-18-02&nbsp;&nbsp;Astrid Rouffaer<BR>
-20-02&nbsp;&nbsp;Sieward Nijhuis<BR>
-23-02&nbsp;&nbsp;Marjolein Taal<BR>
-26-02&nbsp;&nbsp;Aurelia Orlowski<br>
-29-02&nbsp;&nbsp;Joost Haenen<BR><br>
-
-<h3>Wie zijn er in maart jarig??</h3>
-04-03&nbsp;&nbsp;Kirsten de Vos<BR>
-05-03&nbsp;&nbsp;Branka Tomic<BR>
-07-03&nbsp;&nbsp;Marjan Soppe<BR>
-13-03&nbsp;&nbsp;Jurriaan van der Zee<BR>
-14-03&nbsp;&nbsp;Suzanne Castelein<BR>
-17-03&nbsp;&nbsp;Loes Fortman<BR>
-29-03&nbsp;&nbsp;Rita Slootweg<BR>
-29-03&nbsp;&nbsp;Andrea Tetenburg<br>
-31-03&nbsp;&nbsp;Mariëlla Kuilman<BR><br>
-
-<h3>Wie zijn er in april jarig??</h3>
-07-04&nbsp;&nbsp;Monique van Gils<BR>
-07-04&nbsp;&nbsp;Nico van den Bergh<BR>
-09-04&nbsp;&nbsp;Sandra Lokkerbol<BR>
-16-04&nbsp;&nbsp;Huub Bouwens<BR>
-17-04&nbsp;&nbsp;Beppie van den Berg<BR>
-18-04&nbsp;&nbsp;Paul Zuijdwijk<BR>
-25-04&nbsp;&nbsp;Karin Evers<BR>
-29-04&nbsp;&nbsp;Ineke Hertgers<BR><BR>
-
-<h3>Wie zijn er in mei jarig??</h3>
-04-05&nbsp;&nbsp;John ter Horst<BR>
-10-05&nbsp;&nbsp;Lea van der Hert<BR>
-17-05&nbsp;&nbsp;Bob van Ravesteijn<BR>
-21-05&nbsp;&nbsp;Ad Verschoor<BR>
-30-05&nbsp;&nbsp;Elly van Wijk<BR>
-
-<h3>Wie zijn er in juni jarig??</h3>
-07-06&nbsp;&nbsp;Mirjam Grool<BR>
-13-06&nbsp;&nbsp;Leon Huisman<BR/>
-18-06&nbsp;&nbsp;Janneke v.d. Boom<BR>
-19-06&nbsp;&nbsp;Jan v.d. Poll<BR>
-26-06&nbsp;&nbsp;Trude Gentenaar<BR>
-30-06&nbsp;&nbsp;Anna Hogervorst<BR>
-
-<h3>Wie zijn er in juli jarig??</h3>
-1-07&nbsp;&nbsp;Kary van der Meer de Jong<BR>
-20-07&nbsp;&nbsp;Nelly Hoffmann<BR>
-29-07&nbsp;&nbsp;Barbara Mindé<BR><BR>
-30-07&nbsp;&nbsp;Saskia Praat<BR><BR>
-
-<h3>Wie zijn er in augustus jarig??</h3>
-06-08&nbsp;&nbsp;Marjolijn Hillen<BR>
-09-08&nbsp;&nbsp;Elles Vooijs<BR>
-10-08&nbsp;&nbsp;Marian Hartzema<br/>
-12-08&nbsp;&nbsp;Nicole Romijn<BR>
-12-08&nbsp;&nbsp;Maaike Kemper<BR>
-29-08&nbsp;&nbsp;Ton van de Langkruis<BR><BR>
-
-
-<h3>Wie zijn er in september jarig??</h3>
-07-09&nbsp;&nbsp;Ronald Bos<BR>
-11-09&nbsp;&nbsp;Shirley Saris<BR>
-13-09&nbsp;&nbsp;Voices Unlimited<BR>
-24-09&nbsp;&nbsp;Thom van Mierlo<BR>
-28-09&nbsp;&nbsp;Mariëtte van Haarlem<BR><BR>
- 
-<h3>Wie zijn er in oktober jarig??</h3>
-08-10&nbsp;&nbsp;Lenie de Niet<BR>
-09-10&nbsp;&nbsp;Arnold van Schijndel<BR>
-11-10&nbsp;&nbsp;Maggie Halma<BR>
-14-10&nbsp;&nbsp;Maaike Lommelaars<BR>
-27-10&nbsp;&nbsp;Anita Rebel<BR>
-28-10&nbsp;&nbsp;Henk de Leest<BR>
-29-10&nbsp;&nbsp;Wim Biesheuvel<BR><BR>
-
-<h3>Wie zijn er in november jarig??</h3>
-05-11&nbsp;&nbsp;Marcel Wildenberg<BR>
-08-11&nbsp;&nbsp;Chiara Honsbeek-de Goede<BR>
-15-11&nbsp;&nbsp;Karla Cozijnsen<BR><BR>
-
-<h3>Wie zijn er in december jarig??</h3>
-05-12&nbsp;&nbsp;Sandra Hoogweg<BR>
-13-12&nbsp;&nbsp;Rianne Scott-Verhoef<BR>
-25-12&nbsp;&nbsp;Marijke van Winden<BR><BR>
-
-
-
-
--->
