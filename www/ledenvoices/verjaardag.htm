@@ -16,7 +16,7 @@
             <center><br>
                 <img src="logobanner/verjaardag.gif" width="450" height="65"><br><br>
                 <font color="#000099" size="-1" face="Verdana, Arial, Helvetica, sans-serif">
-                    <SCRIPT LANGUAGE="JavaScript1.2">
+                    <SCRIPT type="application/javascript">
 
                         var no = 12; // number of hearts
                         var speed = 30; // smaller number moves the hearts faster
@@ -88,96 +88,28 @@
                         // End -->
                     </script>
 
-                    <h3>Wie zijn er in januari jarig??</h3>
-                    11-01&nbsp;&nbsp;Annabel Trouwborst<br/>
-                    12-01&nbsp;&nbsp;Anke Smeets<BR>
-                    12-01&nbsp;&nbsp;Oscar van der Meer<BR>
-                    21-01&nbsp;&nbsp;Jos van den Boom<BR>
-                    29-01&nbsp;&nbsp;David van Lith<BR><BR>
+                    <script type="application/javascript" src="verjaardag.js"></script>
 
-                    <h3>Wie zijn er in februari jarig??</h3>
-                    04-02&nbsp;&nbsp;Tatiana (Tanja) Kiourou<BR>
-                    05-02&nbsp;&nbsp;Gerard Benders<BR>
-                    16-02&nbsp;&nbsp;Jacqueline Verhagen<BR>
-                    18-02&nbsp;&nbsp;Astrid Rouffaer<BR>
-                    20-02&nbsp;&nbsp;Sieward Nijhuis<BR>
-                    23-02&nbsp;&nbsp;Marjolein Taal<BR>
-                    26-02&nbsp;&nbsp;Aurelia Orlowski<br>
-                    29-02&nbsp;&nbsp;Joost Haenen<BR><br>
+                    <script type="application/javascript">
 
-                    <h3>Wie zijn er in maart jarig??</h3>
-                    05-03&nbsp;&nbsp;Branka Tomic<BR>
-                    07-03&nbsp;&nbsp;Marjan Soppe<BR>
-                    13-03&nbsp;&nbsp;Jurriaan van der Zee<BR>
-                    14-03&nbsp;&nbsp;Suzanne Castelein<BR>
-                    17-03&nbsp;&nbsp;Loes Fortman<BR>
-                    29-03&nbsp;&nbsp;Rita Slootweg<BR>
-                    29-03&nbsp;&nbsp;Andrea Tetenburg<br>
-                    31-03&nbsp;&nbsp;Mariëlla Kuilman<BR><br>
+                        for(var maand=1; maand<=12; maand++) {
 
-                    <h3>Wie zijn er in april jarig??</h3>
-                    07-04&nbsp;&nbsp;Monique van Gils<BR>
-                    09-04&nbsp;&nbsp;Sandra Lokkerbol<BR>
-                    17-04&nbsp;&nbsp;Beppie van den Berg<BR>
-                    18-04&nbsp;&nbsp;Paul Zuijdwijk<BR>
-                    23-04&nbsp;&nbsp;Jan Weilers<BR>
-                    25-04&nbsp;&nbsp;Karin Evers<BR>
-                    29-04&nbsp;&nbsp;Ineke Hertgers<BR><BR>
+                            document.write('<h3>Wie zijn er in ' + verjardagen[maand].naam + ' jarig?</h3>');
+                            // there are probably more efficient ways to do this.
+                            for(var date=1; date<=31; date++) {
 
-                    <h3>Wie zijn er in mei jarig??</h3>
-                    10-05&nbsp;&nbsp;Lea van der Hert<BR>
-                    17-05&nbsp;&nbsp;Bob van Ravesteijn<BR>
-                    21-05&nbsp;&nbsp;Ad Verschoor<BR>
-                    30-05&nbsp;&nbsp;Elly van Wijk<BR>
+                                if(verjardagen[maand][date]) {
+                                    for(var jjob in verjardagen[maand][date]) {
+                                        document.write(date + '-' + maand + '&nbsp;&nbsp;' + verjardagen[maand][date][jjob] + '<br/>');
+                                    }
 
-                    <h3>Wie zijn er in juni jarig??</h3>
-                    07-06&nbsp;&nbsp;Mirjam Grool<BR>
-                    13-06&nbsp;&nbsp;Leon Huisman<BR/>
-                    18-06&nbsp;&nbsp;Janneke v.d. Boom<BR>
-                    19-06&nbsp;&nbsp;Jan v.d. Poll<BR>
-                    26-06&nbsp;&nbsp;Trude Gentenaar<BR>
-                    29-06&nbsp;&nbsp;Carla Sizoo<BR>
-                    30-06&nbsp;&nbsp;Anna Hogervorst<BR>
+                                }
+                            }
 
-                    <h3>Wie zijn er in juli jarig??</h3>
-                    1-07&nbsp;&nbsp;Kary de Jong<BR>
-                    2-07&nbsp;&nbsp;Sandra Laterveer<BR>
-                    13-07&nbsp;&nbsp;Ian Eisenberg<br/>
-                    20-07&nbsp;&nbsp;Nelly Hoffmann<BR>
-                    29-07&nbsp;&nbsp;Barbara Mindé<BR>
+                            document.write('<br/><br/>');
+                        }
 
-                    <h3>Wie zijn er in augustus jarig??</h3>
-                    06-08&nbsp;&nbsp;Marjolijn Hillen<BR>
-                    09-08&nbsp;&nbsp;Elles Vooijs<BR>
-                    10-08&nbsp;&nbsp;Marian Hartzema<br/>
-                    10-08&nbsp;&nbsp;Catelijn Nicolaas<br/>
-                    12-08&nbsp;&nbsp;Nicole Romijn<BR>
-                    12-08&nbsp;&nbsp;Maaike Kemper<BR>
-                    29-08&nbsp;&nbsp;Ton van de Langkruis<BR><BR>
-
-
-                    <h3>Wie zijn er in september jarig??</h3>
-                    11-09&nbsp;&nbsp;Shirley Saris<BR>
-                    13-09&nbsp;&nbsp;Voices Unlimited<BR>
-                    28-09&nbsp;&nbsp;Mariëtte van Haarlem<BR><BR>
-
-                    <h3>Wie zijn er in oktober jarig??</h3>
-                    08-10&nbsp;&nbsp;Lenie de Niet<BR>
-                    09-10&nbsp;&nbsp;Arnold van Schijndel<BR>
-                    11-10&nbsp;&nbsp;Maggie Halma<BR>
-                    14-10&nbsp;&nbsp;Maaike Lommelaars<BR>
-                    27-10&nbsp;&nbsp;Anita Rebel<BR>
-                    28-10&nbsp;&nbsp;Henk de Leest<BR>
-                    29-10&nbsp;&nbsp;Wim Biesheuvel<BR><BR>
-
-                    <h3>Wie zijn er in november jarig??</h3>
-                    08-11&nbsp;&nbsp;Chiara Honsbeek-de Goede<BR>
-                    15-11&nbsp;&nbsp;Karla Cozijnsen<BR><BR>
-
-                    <h3>Wie zijn er in december jarig??</h3>
-                    05-12&nbsp;&nbsp;Sandra Hoogweg<BR>
-                    25-12&nbsp;&nbsp;Marijke van Winden<BR><BR>
-
+                    </script>
 
                     <img src="gifs/mokkataart.jpg" width="188" height="159"><br><br>
                 </font>
