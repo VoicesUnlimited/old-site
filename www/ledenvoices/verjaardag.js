@@ -7,6 +7,7 @@ var verjardagen = {
         '11': ["Annabel Trouwborst"],
         '12': ["Oscar van der Meer", "Anke Smeets"],
         '21': ["Jos van den Boom"],
+        '28': ["Anny Bronsveld"],
         '29': ["David van Lith"]
     },
     '2' : {
@@ -24,6 +25,7 @@ var verjardagen = {
         naam : 'maart',
         '5': ["Branka Tomic"],
         '7': ["Marjan Soppe"],
+        '12': ["Jacqueline Verdiesen"],
         '13': ["Jurriaan van der Zee"],
         '14': ["Suzanne Castelein"],
         '17': ["Loes Fortman"],
