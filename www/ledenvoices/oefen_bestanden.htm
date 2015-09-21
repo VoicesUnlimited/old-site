@@ -7,6 +7,7 @@
             border-collapse: collapse;
             background: white;
             margin: auto;
+            max-width: 75%;
         }
 
         td {
@@ -14,23 +15,39 @@
             padding: 10px;
         }
 
-        .links-with-notes {
-            width: 200px;
+
+        .ref {
+            position: relative;
+            vertical-align: baseline;
         }
 
-        .pre-note {
-            display: inline-block;
-            max-width: 20%;
-            height: 1em;
-            overflow: hidden;
-            text-overflow: ellipsis;
-            white-space: nowrap;
-        }
-
-        .note {
+        .refnum {
+            position: relative;
+            left: 2px;
+            bottom: 1ex;
+            font-family: Verdana, sans-serif;
             color: red;
-            display: inline-block;
-            width: 80%;
+            font-size: .7em;
+            font-weight: bold;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+
+        .refbody {
+            font-family: Verdana, sans-serif;
+            font-size: .7em;
+            line-height: 1.1;
+            display: none;
+            min-width: 20em;
+            position: absolute;
+            left: 25px;
+            bottom: 5px ;
+            border: 1px solid;
+            padding: 5px;
+            background-color: #fff;
+            word-wrap: break-word;
+            z-index: 9999;
+            overflow: auto;
         }
     </style>
 </head>
@@ -203,13 +220,16 @@
         <tr>
             <td>Just Give Me a Reason</td>
             <td>
-                <div class="links-with-notes">
-                    <span class="pre-note"><a href="oefen/Just%20Give%20Me%20A%20Reason%20Sopraan.mp3">Sopraan</a></span>
-                    <span class="note">Sopranen zingen eind maat 73 &quot;gain&quot; een hele tel door over de maatstreep en pakken de draad op bij
-                    &quot;give me a reason.&quot; Dit is ook te horen in de opname!</span>
-                </div><br/>
-                <a href="oefen/Just%20Give%20Me%20A%20Reason%20Alt.mp3">Alt</a> <span class="note">Helaas, schoonheidsfoutje, de slotnoot ontbreekt
-                    en de laatste noot in maat 73 wordt een rust!</span><br/>
+                <a href="oefen/Just%20Give%20Me%20A%20Reason%20Sopraan.mp3">Sopraan</a>
+                <span class="ref">
+                    <span class="refnum">Oeps!</span><span class="refbody">Sopranen zingen eind maat 73 &quot;gain&quot; een hele tel door over de maatstreep en pakken de draad op bij &quot;give me a reason.&quot; Dit is ook te horen in de opname!</span>
+                </span>
+                <br/>
+                <a href="oefen/Just%20Give%20Me%20A%20Reason%20Alt.mp3">Alt</a>
+                <span class="ref">
+                    <span class="refnum">Oeps!</span><span class="refbody">Helaas, schoonheidsfoutje, de slotnoot ontbreekt en de laatste noot in maat 73 wordt een rust!</span>
+                </span>
+                <br/><!--<span class="note"></span><br/>-->
                 <a href="oefen/Just%20Give%20Me%20A%20Reason%20Tenor.mp3">Tenor</a><br/>
                 <a href="oefen/Just%20Give%20Me%20A%20Reason%20Bas.mp3">Bas</a>
             </td>
@@ -302,7 +322,28 @@
             <td>Geen oefenbestanden</td>
         </tr>
     </table>
+    <br/>
 
 </div>
+<script type="application/javascript">
+    // This code could probably be simplified by using a library like JQuery
+
+    var notes = document.getElementsByClassName("refnum");
+    for(var n in notes) {
+        notes[n].onclick = function() {
+            this.nextSibling.style.display = "block";
+        };
+    }
+
+    function hideRefBodies() {
+        var bodies = document.getElementsByClassName("refbody");
+        for(var idx=0; idx<bodies.length; idx++) {
+            bodies[idx].style.display = "none";
+        }
+    }
+
+    document.body.addEventListener('click', hideRefBodies, true);
+
+</script>
 </body>
 </html>
