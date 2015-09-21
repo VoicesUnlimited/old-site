@@ -30,7 +30,7 @@ var verjardagen = {
         '14': ["Suzanne Castelein"],
         '17': ["Loes Fortman"],
         '29': ["Andrea Tetenburg", "Rita Slootweg"],
-        '31': ["Mariëlla Kuilman"]
+        '31': ["Mari\u00EBlla Kuilman"]
     },
     '4' : {
         naam : 'april',
@@ -65,7 +65,7 @@ var verjardagen = {
         '2': ["Sandra Laterveer"],
         '13': ["Ian Eisenberg"],
         '20': ["Nelly Hoffmann"],
-        '29': ["Barbara Mindé"]
+        '29': ["Barbara Mind\u00E9"]
     },
     '8' : {
         naam : 'augustus',
@@ -80,7 +80,7 @@ var verjardagen = {
         naam : 'september',
         '11': ["Shirley Saris"],
         '13': ["Voices Unlimited"],
-        '28': ["Jeroen Sikkema","Mariëtte van Haarlem"]
+        '28': ["Jeroen Sikkema","Mari\u00EBtte van Haarlem"]
     },
     '10' : {
         naam : 'oktober',
