@@ -8,7 +8,8 @@ var verjardagen = {
         '12': ["Oscar van der Meer", "Anke Smeets"],
         '21': ["Jos van den Boom"],
         '28': ["Anny Bronsveld"],
-        '29': ["David van Lith"]
+        '29': ["David van Lith"],
+        '31': ["Fred van Tol"]
     },
     '2' : {
         naam : 'februari',
@@ -38,7 +39,7 @@ var verjardagen = {
         '9': ["Sandra Lokkerbol"],
         '17': ["Beppie van den Berg"],
         '18': ["Paul Zuijdwijk", "Herma Stapper"],
-        '23': ["Jan Weilers"],
+        '23': ["Jan Weilers", "Juli\u00EBt Trouwborst"],
         '25': ["Karin Evers"],
         '29': ["Ineke Hertgers"]
     },
