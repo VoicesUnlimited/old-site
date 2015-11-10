@@ -8,8 +8,7 @@ var verjardagen = {
         '12': ["Oscar van der Meer", "Anke Smeets"],
         '21': ["Jos van den Boom"],
         '28': ["Anny Bronsveld"],
-        '29': ["David van Lith"],
-        '31': ["Fred van Tol"]
+        '29': ["David van Lith"]
     },
     '2' : {
         naam : 'februari',
@@ -46,6 +45,7 @@ var verjardagen = {
     '5' : {
         naam : 'mei',
         '10': ["Lea van der Hert"],
+        '14': ["Paul Weggemans"],
         '17': ["Bob van Ravesteijn"],
         '21': ["Ad Verschoor"],
         '30': ["Elly van Wijk"]
@@ -100,6 +100,7 @@ var verjardagen = {
     },
     '12' : {
         naam : 'december',
+        '2': ["Barbara Krajewski-Betist"],
         '5': ["Sandra Hoogweg"],
         '25': ["Marijke van Winden"]
     }
