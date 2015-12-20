@@ -7,31 +7,38 @@ upSources = new Array("button1up.png","button2up.png","button3up.png","button4up
 overSources = new Array("button1over.png","button2over.png","button3over.png","button4over.png","button5over.png");
 
 // SUB MENUS DECLARATION, YOU DONT NEED TO EDIT THIS
-subInfo = new Array();
-subInfo[1] = new Array();
-subInfo[2] = new Array();
-subInfo[3] = new Array();
-subInfo[4] = new Array();
-subInfo[5] = new Array();
+subInfo = [
+	// See the comments in /menuscript.js
 
-
-//*** SET SUB MENUS TEXT LINKS AND TARGETS HERE ***//
-subInfo[1][1] = new Array("Uit het bestuur","uit het bestuur.htm","inhoudleden");
-subInfo[1][2] = new Array("Data","data.htm","inhoudleden");
-subInfo[1][3] = new Array("Documenten","documenten.htm","inhoudleden");
-subInfo[1][4] = new Array("Oefen Bestanden","oefen_bestanden.htm","inhoudleden");
-subInfo[1][5] = new Array("Concert Kleding","concertkleding.htm","inhoudleden");
-
-subInfo[2][1] = new Array("Foto albums","fotoalbumsovz.htm","inhoudleden");
-
-subInfo[3][1] = new Array("Songteksten","teksten.htm","inhoudleden");
-subInfo[3][2] = new Array("Repertoirelijst","strepertoire.htm","inhoudleden");
-
-subInfo[4][1] = new Array("Activiteiten","activiteit.htm","inhoudleden");
-subInfo[4][2] = new Array("Smoelenboek","smoelenboek.htm","inhoudleden");
-subInfo[4][3] = new Array("Verjaardagen","verjaardag.htm","inhoudleden");
-subInfo[4][4] = new Array("Commissies","informatie.htm","inhoudleden");
-
+	[],
+	[
+		[],
+        ["Uit het bestuur","uit het bestuur.htm","inhoudleden"],
+        ["Data","data.htm","inhoudleden"],
+        ["Documenten","documenten.htm","inhoudleden"],
+        ["Oefen Bestanden","oefen_bestanden.htm","inhoudleden"],
+        ["Concert Kleding","concertkleding.htm","inhoudleden"]
+    ],
+    [
+        [],
+        ["Foto albums","fotoalbumsovz.htm","inhoudleden"],
+        ["Haags Jantje", "haagsjantje.htm", "inhoudleden"]
+    ],
+    [
+        [],
+        ["Songteksten","teksten.htm","inhoudleden"],
+        ["Repertoirelijst","strepertoire.htm","inhoudleden"]
+    ],
+    [
+        [],
+        ["Activiteiten","activiteit.htm","inhoudleden"],
+        ["Smoelenboek","smoelenboek.htm","inhoudleden"],
+        ["Verjaardagen","verjaardag.htm","inhoudleden"],
+        ["Commissies","informatie.htm","inhoudleden"]
+    ],
+    [],
+    []
+];
 
 //*** SET SUB MENU POSITION ( RELATIVE TO BUTTON ) ***//
 var xSubOffset = 8;
