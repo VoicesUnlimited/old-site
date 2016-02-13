@@ -38,7 +38,7 @@ var verjardagen = {
         '9': ["Sandra Lokkerbol"],
         '17': ["Beppie van den Berg"],
         '18': ["Paul Zuijdwijk", "Herma Stapper"],
-        '23': ["Jan Weilers", "Juli\u00EBt Trouwborst"],
+        '23': ["Jan Weilers"],
         '25': ["Karin Evers"],
         '29': ["Ineke Hertgers"]
     },
@@ -95,8 +95,7 @@ var verjardagen = {
     },
     '11' : {
         naam : 'november',
-        '8': ["Chiara Honsbeek-de Goede"],
-        '15': ["Karla Cozijnsen"]
+        '8': ["Chiara Honsbeek-de Goede"]
     },
     '12' : {
         naam : 'december',
