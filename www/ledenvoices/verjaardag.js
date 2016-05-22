@@ -45,7 +45,6 @@ var verjardagen = {
     '5' : {
         naam : 'mei',
         '10': ["Lea van der Hert"],
-        '14': ["Paul Weggemans"],
         '17': ["Bob van Ravesteijn"],
         '21': ["Ad Verschoor"],
         '30': ["Elly van Wijk"]
