@@ -27,7 +27,6 @@ var verjardagen = {
         '7': ["Marjan Soppe"],
         '12': ["Jacqueline Verdiesen"],
         '13': ["Jurriaan van der Zee"],
-        '14': ["Suzanne Castelein"],
         '17': ["Loes Fortman"],
         '29': ["Andrea Tetenburg", "Rita Slootweg"],
         '31': ["Mari\u00EBlla Kuilman"]
@@ -61,7 +60,6 @@ var verjardagen = {
     },
     '7' : {
         naam : 'juli',
-        '1': ["Kary de Jong"],
         '2': ["Sandra Laterveer"],
         '13': ["Ian Eisenberg"],
         '20': ["Nelly Hoffmann"],
