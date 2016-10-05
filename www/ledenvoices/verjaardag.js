@@ -71,9 +71,7 @@ var verjardagen = {
         '9': ["Elles Vooijs"],
         '10': ["Marian Hartzema", "Catelijn Nicolaas"],
         '12': ["Nicole Romijn", "Maaike Kemper"],
-        '27': ["Hans Lansing"],
-        '29': ["Ton van de Langkruis"]
-    },
+        '27': ["Hans Lansing"]    },
     '9' : {
         naam : 'september',
         '11': ["Shirley Saris"],
