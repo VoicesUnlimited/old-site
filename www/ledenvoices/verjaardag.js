@@ -28,8 +28,7 @@ var verjardagen = {
         '12': ["Jacqueline Verdiesen"],
         '13': ["Jurriaan van der Zee"],
         '17': ["Loes Fortman"],
-        '29': ["Andrea Tetenburg", "Rita Slootweg"],
-        '31': ["Mari\u00EBlla Kuilman"]
+        '29': ["Andrea Tetenburg", "Rita Slootweg"]
     },
     '4' : {
         naam : 'april',
@@ -69,7 +68,7 @@ var verjardagen = {
         naam : 'augustus',
         '6': ["Marjolijn Hillen"],
         '9': ["Elles Vooijs"],
-        '10': ["Marian Hartzema", "Catelijn Nicolaas"],
+        '10': ["Catelijn Nicolaas"],
         '12': ["Nicole Romijn", "Maaike Kemper"],
         '27': ["Hans Lansing"]    },
     '9' : {
