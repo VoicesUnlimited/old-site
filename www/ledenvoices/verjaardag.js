@@ -5,7 +5,7 @@ var verjardagen = {
     '1' : {
         naam : 'januari',
         '11': ["Annabel Trouwborst"],
-        '12': ["Oscar van der Meer", "Anke Smeets"],
+        '12': ["Anke Smeets"],
         '21': ["Jos van den Boom"],
         '28': ["Anny Bronsveld"],
         '29': ["David van Lith"]
