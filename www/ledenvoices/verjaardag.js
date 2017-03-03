@@ -32,7 +32,6 @@ var verjardagen = {
     '4' : {
         naam : 'april',
         '7': ["Monique van Gils"],
-        '9': ["Sandra Lokkerbol"],
         '17': ["Beppie van den Berg"],
         '18': ["Paul Zuijdwijk"],
         '23': ["Jan Weilers"],
@@ -49,7 +48,6 @@ var verjardagen = {
     '6' : {
         naam : 'juni',
         '7': ["Mirjam Grool"],
-        '13': ["Leon Huisman"],
         '18': ["Janneke v.d. Boom"],
         '19': ["Jan v.d. Poll"],
         '26': ["Trude Gentenaar"],
