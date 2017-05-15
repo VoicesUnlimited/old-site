@@ -31,6 +31,7 @@ var verjardagen = {
     },
     '4' : {
         naam : 'april',
+        '1': ["Peter Schippers"],
         '7': ["Monique van Gils"],
         '17': ["Beppie van den Berg"],
         '18': ["Paul Zuijdwijk"],
