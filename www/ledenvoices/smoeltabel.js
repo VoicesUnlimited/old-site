@@ -8,7 +8,18 @@ function createPictureTable(data) {
                 document.write("</tr><tr>");
             }
         }
-        document.write('<td align="center"><a href="' + data[idx].foto + '"><img src="' + data[idx].foto + '" height="140" border="0"><br/>' + data[idx].name + '</a></td>')
+        document.write('<td align="center">')
+        if(data[idx].foto) {
+            document.write('<a href="' + data[idx].foto + '"><img src="' + data[idx].foto + '" height="140" border="0"><br/>');
+        }
+        else {
+            document.write('Nog geen foto!<br/><br/>')
+        }
+        document.write(data[idx].name);
+        if(data[idx].foto) {
+            document.write('</a>');
+        }
+        document.write('</td>');
     }
     document.write("</tr>");
     document.write("</table>");

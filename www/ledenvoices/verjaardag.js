@@ -81,7 +81,7 @@ var verjardagen = {
         '14': ["Maaike Lommelaars"],
         '27': ["Anita Rebel"],
         '28': ["Henk de Leest"],
-        '29': ["Wim Biesheuvel"]
+        '29': ["Wim Biesheuvel", "Saskia de Vries"]
     },
     '11' : {
         naam : 'november',
@@ -91,6 +91,7 @@ var verjardagen = {
         naam : 'december',
         '2': ["Barbara Krajewski-Betist"],
         '5': ["Sandra Hoogweg"],
+        '10': ["Yolande de Leest"],
         '25': ["Marijke van Winden"]
     }
 };
