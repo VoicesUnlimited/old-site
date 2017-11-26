@@ -16,6 +16,7 @@ var verjardagen = {
         '5': ["Gerard Benders"],
         '16': ["Jacqueline Verhagen"],
         '20': ["Sieward Nijhuis"],
+        '23': ["Dick Lansing"],
         '26': ["Aurelia Orlowski"],
         '29': ["Joost Haenen"]
     },
@@ -34,7 +35,6 @@ var verjardagen = {
         '7': ["Monique van Gils"],
         '17': ["Beppie van den Berg"],
         '18': ["Paul Zuijdwijk"],
-        '25': ["Karin Brockmann"],
         '29': ["Ineke Hertgers"]
     },
     '5' : {
