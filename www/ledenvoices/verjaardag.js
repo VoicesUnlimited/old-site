@@ -34,7 +34,7 @@ var verjardagen = {
         '1': ["Peter Schippers"],
         '7': ["Monique van Gils"],
         '17': ["Beppie van den Berg"],
-        '18': ["Paul Zuijdwijk"],
+        '18': ["Paul Zuijdwijk", "Ali Al Hadaui"],
         '29': ["Ineke Hertgers"]
     },
     '5' : {
