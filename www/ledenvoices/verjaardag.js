@@ -79,7 +79,6 @@ var verjardagen = {
         '9': ["Arnold van Schijndel"],
         '11': ["Maggie Halma"],
         '14': ["Maaike Lommelaars"],
-        '16': ["Nieke van Cleef"],
         '27': ["Anita Rebel"],
         '28': ["Henk de Leest"],
         '29': ["Wim Biesheuvel", "Saskia de Vries"]
