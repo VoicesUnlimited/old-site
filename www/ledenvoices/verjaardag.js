@@ -69,7 +69,7 @@ var verjardagen = {
     },
     '9' : {
         naam : 'september',
-        '10': ["Annemieke Klootwijk"],
+        '10': ["Jannemieke Klootwijk"],
         '11': ["Shirley Saris"],
         '13': ["Voices Unlimited"],
         '28': ["Jeroen Sikkema","Mari\u00EBtte van Haarlem"]
