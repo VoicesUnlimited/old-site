@@ -76,7 +76,6 @@ var verjardagen = {
     },
     '10' : {
         naam : 'oktober',
-        '8': ["Lenie de Niet"],
         '9': ["Arnold van Schijndel"],
         '11': ["Maggie Halma"],
         '14': ["Maaike Lommelaars"],
