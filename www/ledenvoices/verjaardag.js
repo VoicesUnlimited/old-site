@@ -55,7 +55,7 @@ var verjardagen = {
     '7' : {
         naam : 'juli',
         '2': ["Sandra Laterveer"],
-        '13': ["Ian Eisenberg"],
+        '13': ["Ian Eisenberg", "Jos Westerwoudt"],
         '20': ["Nelly Hoffmann"],
         '29': ["Barbara Mind\u00E9"]
     },
@@ -72,7 +72,8 @@ var verjardagen = {
         '10': ["Jannemieke Klootwijk"],
         '11': ["Shirley Saris"],
         '13': ["Voices Unlimited"],
-        '28': ["Jeroen Sikkema","Mari\u00EBtte van Haarlem"]
+        '28': ["Jeroen Sikkema","Mari\u00EBtte van Haarlem"],
+        '30': ["Ria Verbree"]
     },
     '10' : {
         naam : 'oktober',
