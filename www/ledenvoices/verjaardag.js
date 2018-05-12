@@ -27,6 +27,7 @@ var verjardagen = {
         '12': ["Jacqueline Verdiesen"],
         '13': ["Jurriaan van der Zee"],
         '17': ["Loes Fortman"],
+        '26': ["Louis London"],
         '29': ["Andrea Tetenburg", "Rita Slootweg"]
     },
     '4' : {
