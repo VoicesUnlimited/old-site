@@ -57,6 +57,7 @@ var verjardagen = {
         naam : 'juli',
         '2': ["Sandra Laterveer"],
         '13': ["Ian Eisenberg", "Jos Westerwoudt"],
+        '19': ["Koos Maquelin"],
         '20': ["Nelly Hoffmann"],
         '29': ["Barbara Mind\u00E9"]
     },
